@@ -1,0 +1,475 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,300;0,600;0,700;1,100;1,500;1,900&display=swap');
+
+
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    outline: 0;
+    font-family: 'Dosis', sans-serif;
+
+}
+.container {
+      width: 1140px;
+      margin: auto;
+}
+.heading-one {
+
+}
+
+.heading-two {font-size: 33px;font-weight: 500;}
+
+.small-heading {font-size: 25px;font-weight: 500;margin: 15px;}
+section {
+    padding: 100px 0px;
+}
+.btn {
+    color: #000;
+    background-color: #00fff1;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 25px;
+    border-radius: 10px;
+    transition: ease-in-out 0.8s;
+    
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 6px #00fff1 ;
+
+}
+
+p {color: gray;font-size: 14px;}
+/* layout Css */
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+     float: left;  }
+.col-2 {
+    width: 16.66%;
+     float: left;  }
+
+.col-3 {
+    width: 21%;
+    float: left;
+    }
+
+.col-4 {
+    width: 33.33%;
+    float: left;  }
+
+.col-5 {
+    width: 41.66%;
+    float: left; }
+.col-6 {
+    width: 50%;
+    float: left; }
+.col-7 {
+    width: 58.33%;   
+    float: left;}
+.col-8 {
+    width: 66.66%;
+    float: left; }
+.col-9 {
+    width: 75%;
+    float: left; }
+.col-10 {
+    width: 83.33%;
+    float: left; }
+.col-11 {
+    width: 91.66%;
+    float: left; }
+.col-12 {
+    width: 100%;
+    float: left; }
+   
+    /* header part start */
+
+header {
+       background-color: #223047;
+          color: #fff;
+}
+nav {
+    padding:  10px 0px;
+    border-bottom: 2px solid #f5f6fa33;
+    position: fixed;
+    top: 0;
+    z-index: 10 ;
+    background-color: #223047 ;
+}
+
+.logo {
+
+}
+.menu {
+ 
+}
+.menu ul {
+
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.menu a {
+    font-size: 18px;
+    color:#fff;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+.btn-part {
+text-align: center;
+}
+.hero .row {
+
+
+}
+.hero-writing-part {
+    /* text-align: center; */
+    margin-top: 201px;
+}
+
+.hero-writing-part h1 {padding:  0px;margin: 0px 87px;}
+.hero-writing-part p {margin: 41px 43px;font-size: 16px;padding-bottom: 25px;margin-left: 89px;}
+.hero-writing-part .btn {margin-right: 000 px;font-size: 15px;padding: 16px;font-weight: 500;margin: 0px 86px;margin-right: 20px;}
+.hero-writing-part .btn-light {
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 16px;
+    border-radius: 10px;
+    transition: ease-in-out 0.8s;
+    border: 1px solid #4e596c;
+    }
+    .hero-writing-part .btn-light:hover {
+        background-color: #fff;
+        color: #000;
+
+    }
+.hero-img-part {
+    position: relative;
+    top: 109px;
+    /* margin-left: 0px; */
+    text-align: center;
+}
+
+.hero-img-part img {
+
+}
+
+    /* header part end */
+   
+    /* About part start */
+
+#about {text-align: center;padding: 247px 0px;}
+.about-wrirting-part {
+
+}
+.about-wrirting-part h2 {
+
+}
+.underline {width: 7%;border-top: 4px solid #00fff1;display: block;margin: 50px auto;}
+.about-box-part {}
+
+.box-part {border: 1px solid #eeeeee38;margin: 0px 16px;box-shadow: 0px 1px 2px 0px #22304769;}
+.box-part img {
+
+}
+
+.box-part h2 {margin: 12px;}
+
+.box-part p {padding: 20px;}
+
+    /* About part end */
+
+
+    /* Info part start */
+ #info {
+    
+ }
+.blank {height: 300px;background-color: #323a4d;}
+
+.info-part {
+    padding: 55px;
+    background-color: #f5f6fa; 
+    max-height: 300px;
+}
+
+.info-part h3 {
+
+}
+
+.info-part p {
+    margin: 26px 0px;
+    width: 62%;
+}
+
+  /* Info part send */
+   
+
+  /* App Presentation part start */
+
+#app {
+
+}
+.app-top {height: 500px;}
+.app-top-writing-part {text-align: end;margin: 39px 0px;}
+.app-top-writing-part h3 {padding: 6px 0px 0px 6px;}
+.app-top-writing-part p {padding: 30px 0px 0px 132px;/* margin: 0px 0px 0px 16px; */margin-bottom: 35px;}
+
+.app-top-writing-part a {
+
+}
+
+.app-top-writing-part a .btn {
+
+}
+.app-top img {
+
+}
+
+
+.app-mid {
+
+}
+.app-mid-img-part img {position: relative;top: 66px;}
+
+.app-mid-box-part {
+
+}
+
+
+.app-mid-box-part .app-box {
+
+}
+.app-box {margin: 8px;box-shadow: 0px 1px 2px #0000005c;padding: 16px;}
+
+.app-box i {
+
+}
+.app-box h3 {display: inline-block;}
+.app-box img {
+
+}
+
+.app-box  p {padding-left: 33px;margin-right: 145px;}
+
+
+.app-box:hover {
+    background-color: #00fff0;
+    box-shadow: 0px 0px 10px #00fff0;
+}
+
+.app-bottom {
+    padding-top: 0px;
+    background-color: #f5f6fa;
+    max-height: 5;
+    max-height: 553px;
+}
+
+.app-bottom-wirting-part {text-align: end;padding: 53px 89px;margin: 87px 0px;}
+
+.app-bottom-wirting-part h4 {margin-left: 0;text-align: end;padding: 18px 0px;font-size: 34px;}
+
+.app-bottom-wirting-part div i {border-radius: 50%;background-color: aqua;padding: 3px;margin: 0px 10px;}
+
+.app-bottom-wirting-part div {padding: 10px 35px;}
+
+.app-bottom-wirting-part p {padding: 46px 8px;padding-left: 99px;}
+
+
+.app-bottom-wirting-part div span {
+    padding: 14px 0px;
+}
+
+
+.app-bottom-img-part div {
+     
+}
+.app-bottom-img-part img {padding-top: 80px;}
+
+
+  /* App Presentation part end */
+
+  /* video part start  */
+
+ #video {padding-top: 140px;background-color: #223047;color: white;text-align: center;margin-top: -102px;padding-bottom: 124px;}
+
+ #video img {margin: 8px 0px;}
+
+ #video h4 {margin-bottom: 35px;}
+ #video p {padding: 0px 247px;font-size: 15px;}
+ 
+ /* video part end */
+
+ /* Download part start */
+
+ #download {
+   text-align: center;
+   padding: 0px;
+   }
+
+ .map {
+    background: url(../img/map.png) no-repeat center;
+    background-size: cover ;
+    margin: 100px;
+ }
+
+.map h2 {/* margin-top: 68px; */margin: 15px;}
+
+.map p {font-size: 19px;color: black;padding-bottom: 49px;}
+
+.map a {
+
+}
+
+.map a button {
+ font-weight: 600px;
+ padding: 21px;
+ border-radius: 0px;
+ font-size: 18px;
+ }
+ 
+ /* Download part end */
+ 
+/* testimonial part start */
+
+#testimonial {
+             text-align: center;
+             background-color: #223047;
+}
+#testimonial p {
+    width: 60%;
+    color: #03ebdf;
+    font-size: 18px;
+    margin: auto;
+    padding-top: 72px;
+}
+
+
+/* testimonial part end */
+
+/* App Add part start */
+
+#app-add {
+ background-color: #f5f6fa;
+}
+
+.app-add-img-part {
+
+}
+
+.app-add-img-part img {
+
+}
+
+.app-add-writing-part {padding: 105px 0px;}
+.app-add-writing-part h2 {
+     padding: 20px 0px;
+}
+
+.app-add-writing-part p {padding: 25px 0px;padding-right: 231px;font-size: 15px;}
+.app-add-writing-part img {padding-right: 20px;}
+
+
+/* App Add part end */
+
+.big {
+    text-align: center;
+}
+
+.big-btn {
+    border-radius: 0px;
+    width: 20%;
+    position: relative;
+    top: -31px;
+}
+
+/* Footer widget part start  */
+#footer-widget {
+
+}
+
+.footer-link-part {
+
+}
+.footer-link {
+    width: 20%;
+    float: left
+
+
+}
+.footer-link h6 {margin-left: -24px;}
+.footer-link ul {
+
+}
+.footer-link li {
+    list-style: none;
+    font-size: 17px;
+    margin: 0px -23px;
+}
+
+.footer-link li a {
+  transition: ease-in-out 0.8s;
+  font-size: 16px;
+}
+.footer-link li:hover {
+    background-color: #00f1ff;
+    width: 100%;
+    
+}
+
+/* Newsletter part start  */
+
+#newsletter-part {
+    text-align: center;
+
+}
+#newsletter-part h6 {margin-top: 100px;margin-bottom: 21px;}
+#newsletter-part p {font-size: 18px;padding-bottom: 26px;}
+
+input[type="email"] {width: 48%;background-color: #f5f6fa;padding: 15px;font-size: 18px;margin-top: 30px;margin-left: 4px;}
+input[type="submit"] {padding: 16px;width: 12%;background-color: aqua;margin-left: 25px;box-shadow: 0px 0px 8px #00f1ff;font-weight: 600;font-size: 16px;}
+
+/* Newsletter part end  */
+
+
+/* Footer widget part end  */
+
+/* Footer part start  */
+footer {
+           background-color: #223047;
+        
+           padding: 30px;
+}
+.copywrite {
+      font-size: 18px;
+      text-align: left;
+      color: #00f1ff;
+}
+.copywrite p {color: aqua;margin-left: 75px;font-size: 15px;}
+.social-icon {text-align: center;}
+
+.social-icon i {
+  color: white;
+  margin-right: 50px;
+  font-size: 25px;
+  transition: ease-in-out 0.8s;
+}
+
+.social-icon i:hover {
+    color: #00f1ff;
+}
+
+
+/* Footer part end */
